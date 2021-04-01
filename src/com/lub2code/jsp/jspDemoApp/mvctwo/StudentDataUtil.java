@@ -11,7 +11,11 @@ public class StudentDataUtil {
 		List<Student> students = new ArrayList<>();
 
 		// add sample data
+		students.add(new Student("Yuta", "Sugiyama", "yuta@gmail.com"));
+		students.add(new Student("Masato", "Satou", "masato@gmail.com"));
+		students.add(new Student("Hiroshi", "Takahashi", "hiroshi@gmail.com"));
 
 		// return the list
+		return students;
 	}
 }
